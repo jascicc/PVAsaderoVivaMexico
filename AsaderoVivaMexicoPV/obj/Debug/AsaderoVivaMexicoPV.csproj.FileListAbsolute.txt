@@ -1,0 +1,10 @@
+C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\bin\Debug\AsaderoVivaMexicoPV.exe.config
+C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\bin\Debug\AsaderoVivaMexicoPV.exe
+C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\bin\Debug\AsaderoVivaMexicoPV.pdb
+C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.csprojAssemblyReference.cache
+C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmMainMenu.resources
+C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.Properties.Resources.resources
+C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.csproj.GenerateResource.cache
+C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.csproj.CoreCompileInputs.cache
+C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.exe
+C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.pdb
