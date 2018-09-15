@@ -1,0 +1,14 @@
+Coding standards
+
+*************** Components naming **************
+Each component will be named writing the key that represents the component, followed by the name of the component,
+according to the list bellowed, each component should be shown like this:
+
+Forms ---> frm + name in camel Case... Example: frmMenu
+Buttons ---> btn + name in camel Case... Example: btnOrders
+Labels ---> lbl + name in camel Case... Example: lblOrders
+TextBoxes ---> tb + name in camel Case... Example: tbPrice
+ComboBoxes ---> cb + name in camel Case... Example: cbProducts
+DataGridViews ---> dgv + name in camel Case... Example: dgvActiveOrders
+
+*************************************************
