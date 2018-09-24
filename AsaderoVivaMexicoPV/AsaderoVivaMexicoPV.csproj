@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,7 +48,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,16 +68,154 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Expander.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Expander.Designer.cs">
+      <DependentUpon>Expander.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaidOrders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmPaidOrders.Designer.cs">
+      <DependentUpon>frmPaidOrders.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPayOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayOrder.Designer.cs">
+      <DependentUpon>frmPayOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCategory.Designer.cs">
+      <DependentUpon>frmAddCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddProduct.Designer.cs">
+      <DependentUpon>frmAddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddTable.Designer.cs">
+      <DependentUpon>frmAddTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCategories.Designer.cs">
+      <DependentUpon>frmCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddOrder.Designer.cs">
+      <DependentUpon>frmAddOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddSpending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddSpending.Designer.cs">
+      <DependentUpon>frmAddSpending.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrders.Designer.cs">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductsInOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductsInOrder.Designer.cs">
+      <DependentUpon>frmProductsInOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSpendings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSpendings.Designer.cs">
+      <DependentUpon>frmSpendings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTables.Designer.cs">
+      <DependentUpon>frmTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809190301095_firstMigration.cs" />
+    <Compile Include="Migrations\201809190301095_firstMigration.Designer.cs">
+      <DependentUpon>201809190301095_firstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\DataBaseContext.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\Spending.cs" />
+    <Compile Include="Models\Config.cs" />
+    <Compile Include="Models\Table.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmPaidOrders.resx">
+      <DependentUpon>frmPaidOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayOrder.resx">
+      <DependentUpon>frmPayOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCategory.resx">
+      <DependentUpon>frmAddCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddProduct.resx">
+      <DependentUpon>frmAddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddTable.resx">
+      <DependentUpon>frmAddTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCategories.resx">
+      <DependentUpon>frmCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddOrder.resx">
+      <DependentUpon>frmAddOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddSpending.resx">
+      <DependentUpon>frmAddSpending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrders.resx">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductsInOrder.resx">
+      <DependentUpon>frmProductsInOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSpendings.resx">
+      <DependentUpon>frmSpendings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTables.resx">
+      <DependentUpon>frmTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809190301095_firstMigration.resx">
+      <DependentUpon>201809190301095_firstMigration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -67,6 +227,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,6 +249,26 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\covered-food-tray-on-a-hand-of-hotel-room-service.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PVAsadero.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PVAsadero_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

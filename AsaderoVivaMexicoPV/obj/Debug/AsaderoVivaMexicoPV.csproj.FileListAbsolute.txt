@@ -8,3 +8,34 @@ C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\obj\Debug\
 C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.csproj.CoreCompileInputs.cache
 C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.exe
 C:\Users\Dell i5\source\repos\AsaderoVivaMexicoPV\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.pdb
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\bin\Debug\AsaderoVivaMexicoPV.exe.config
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\bin\Debug\AsaderoVivaMexicoPV.exe
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\bin\Debug\AsaderoVivaMexicoPV.pdb
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\bin\Debug\EntityFramework.dll
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\bin\Debug\EntityFramework.xml
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmPaidOrders.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmPayOrder.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmMainMenu.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmAddCategory.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmAddProduct.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmAddTable.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmCategories.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmAddOrder.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmMenu.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmAddSpending.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmOrders.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmProductsInOrder.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmSpendings.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.frmTables.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.Migrations.firstMigration.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.Properties.Resources.resources
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.csproj.GenerateResource.cache
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.csproj.CoreCompileInputs.cache
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.csproj.CopyComplete
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.exe
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.pdb
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\obj\Debug\AsaderoVivaMexicoPV.csprojAssemblyReference.cache
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\bin\Debug\PVAsadero.mdf
+C:\Users\tv350\source\repos\PVAsaderoVivaMexico\AsaderoVivaMexicoPV\bin\Debug\PVAsadero_log.ldf
