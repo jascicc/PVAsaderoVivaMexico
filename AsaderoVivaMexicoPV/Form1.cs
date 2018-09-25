@@ -16,5 +16,15 @@ namespace AsaderoVivaMexicoPV
         {
             InitializeComponent();
         }
+
+        private void btnCloseWindow_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
